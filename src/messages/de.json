@@ -55,12 +55,6 @@
     "section3_bullet2": "Mobiloptimiertes Bewerbungsformular",
     "section3_bullet3": "DSGVO-konformer Bewerbungseingang"
   },
-  "stats": {
-    "candidates": "Kandidaten verarbeitet",
-    "jobs": "Jobs veroeffentlicht",
-    "uptime": "Uptime",
-    "ai_speed": "KI-Analyse"
-  },
   "pricing": {
     "title": "Transparente Preise.",
     "subtitle": "Keine versteckten Kosten. Jederzeit kuendbar.",
@@ -73,7 +67,6 @@
     "active_jobs": "Aktive Jobs",
     "ai_credits": "KI-Credits",
     "unlimited": "Unbegrenzt",
-    "starter_name": "Starter",
     "professional_name": "Professional",
     "enterprise_name": "Enterprise",
     "whitelabel_name": "Whitelabel",
@@ -86,10 +79,9 @@
     "feature_api": "API-Zugang",
     "feature_custom_domain": "Custom Domain",
     "feature_priority": "Priority Support",
-    "feature_dedicated": "Dedicated Account Manager"
-  },
-  "testimonials": {
-    "title": "Was unsere Kunden sagen."
+    "feature_dedicated": "Dedicated Account Manager",
+    "success_fee_title": "5 % Vermittlungshonorar",
+    "success_fee_desc": "Zusaetzlich zu den Plattformkosten beteiligen wir uns mit 5 % Honorar an jeder erfolgreichen Vermittlung ueber HYRE. Erst bei Erfolg - kein Risiko."
   },
   "cta": {
     "title": "Bereit, Recruiting neu zu erleben?",

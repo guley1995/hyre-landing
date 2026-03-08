@@ -21,22 +21,12 @@ interface PricingTier {
 
 const TIERS: PricingTier[] = [
   {
-    nameKey: "starter_name",
-    price: 99,
-    users: "3",
-    candidates: "500",
-    activeJobs: "10",
-    aiCredits: "1.000",
-    features: ["feature_pipeline", "feature_portal", "feature_ai"],
-  },
-  {
     nameKey: "professional_name",
     price: 299,
     users: "25",
     candidates: "5.000",
     activeJobs: "50",
     aiCredits: "5.000",
-    highlighted: true,
     features: [
       "feature_pipeline",
       "feature_analytics",
@@ -53,6 +43,7 @@ const TIERS: PricingTier[] = [
     candidates: "50.000",
     activeJobs: "500",
     aiCredits: "50.000",
+    highlighted: true,
     features: [
       "feature_pipeline",
       "feature_analytics",
@@ -275,11 +266,30 @@ export function Pricing() {
         </motion.div>
 
         {/* Cards */}
-        <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+        <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
           {TIERS.map((tier, index) => (
             <PricingCard key={tier.nameKey} tier={tier} index={index} t={t} />
           ))}
         </div>
+
+        {/* Success fee notice */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.5, duration: 0.6 }}
+          className="mx-auto mt-12 max-w-2xl text-center"
+        >
+          <div className="glass rounded-2xl p-6">
+            <div className="mb-2 flex items-center justify-center gap-2">
+              <svg className="h-5 w-5 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              <span className="text-lg font-semibold text-text-primary">{t("success_fee_title")}</span>
+            </div>
+            <p className="text-sm text-text-secondary">{t("success_fee_desc")}</p>
+          </div>
+        </motion.div>
       </div>
     </section>
   );

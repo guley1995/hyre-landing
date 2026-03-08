@@ -55,12 +55,6 @@
     "section3_bullet2": "Mobile-optimized application form",
     "section3_bullet3": "GDPR-compliant application intake"
   },
-  "stats": {
-    "candidates": "Candidates processed",
-    "jobs": "Jobs published",
-    "uptime": "Uptime",
-    "ai_speed": "AI Analysis"
-  },
   "pricing": {
     "title": "Transparent pricing.",
     "subtitle": "No hidden costs. Cancel anytime.",
@@ -73,7 +67,6 @@
     "active_jobs": "Active Jobs",
     "ai_credits": "AI Credits",
     "unlimited": "Unlimited",
-    "starter_name": "Starter",
     "professional_name": "Professional",
     "enterprise_name": "Enterprise",
     "whitelabel_name": "Whitelabel",
@@ -86,10 +79,9 @@
     "feature_api": "API Access",
     "feature_custom_domain": "Custom Domain",
     "feature_priority": "Priority Support",
-    "feature_dedicated": "Dedicated Account Manager"
-  },
-  "testimonials": {
-    "title": "What our customers say."
+    "feature_dedicated": "Dedicated Account Manager",
+    "success_fee_title": "5 % Success Fee",
+    "success_fee_desc": "In addition to the platform fee, we charge a 5 % placement fee for every successful hire made through HYRE. Pay only on success - zero risk."
   },
   "cta": {
     "title": "Ready to reimagine recruiting?",
