@@ -23,10 +23,10 @@ const TIERS: PricingTier[] = [
   {
     nameKey: "professional_name",
     price: 999,
-    users: "10",
-    candidates: "5.000",
-    activeJobs: "25",
-    aiCredits: "2.500",
+    users: "5",
+    candidates: "2.500",
+    activeJobs: "15",
+    aiCredits: "1.000",
     features: [
       "feature_pipeline",
       "feature_portal",
@@ -37,10 +37,10 @@ const TIERS: PricingTier[] = [
   {
     nameKey: "enterprise_name",
     price: 1200,
-    users: "50",
-    candidates: "25.000",
-    activeJobs: "100",
-    aiCredits: "10.000",
+    users: "25",
+    candidates: "10.000",
+    activeJobs: "50",
+    aiCredits: "5.000",
     highlighted: true,
     features: [
       "feature_pipeline",
