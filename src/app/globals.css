@@ -29,11 +29,30 @@ body {
   background: var(--color-bg-primary);
   color: var(--color-text-primary);
   font-family: var(--font-sans);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+/* Allow text selection in inputs */
+input,
+textarea {
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  user-select: text;
 }
 
 ::selection {
   background: var(--color-accent);
   color: white;
+}
+
+/* ── Custom cursor (hide system cursor on desktop) ───── */
+
+@media (hover: hover) and (pointer: fine) {
+  * {
+    cursor: none !important;
+  }
 }
 
 /* ── Scrollbar ────────────────────────────────────────── */
