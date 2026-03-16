@@ -7,14 +7,14 @@ import { AnimatedText } from "./ui/animated-text";
 
 const TESTIMONIALS = [
   {
-    quote: "HYRE hat unseren Time-to-Hire um 40% reduziert. Die KI-gestuetzte CV-Analyse spart uns taeglich Stunden.",
+    quote: "HYRE hat unseren Time-to-Hire um 40% reduziert. Die KI-gestützte CV-Analyse spart uns täglich Stunden.",
     quoteEn: "HYRE reduced our time-to-hire by 40%. The AI-powered CV analysis saves us hours every day.",
-    name: "Dr. Stefan Mueller",
+    name: "Dr. Stefan Müller",
     role: "Head of Talent Acquisition",
     company: "TechRecruit GmbH",
   },
   {
-    quote: "Das Kanban-Board mit Drag & Drop ist genial. Endlich haben wir den vollen Ueberblick ueber unsere Pipeline.",
+    quote: "Das Kanban-Board mit Drag & Drop ist genial. Endlich haben wir den vollen Überblick über unsere Pipeline.",
     quoteEn: "The Kanban board with drag & drop is brilliant. Finally we have full visibility over our pipeline.",
     name: "Sandra Hoffmann",
     role: "Senior Recruiterin",
@@ -24,18 +24,18 @@ const TESTIMONIALS = [
     quote: "White-Label Karriereportal aufgesetzt in 10 Minuten. Unsere Kunden sind begeistert vom professionellen Auftritt.",
     quoteEn: "White-label career portal set up in 10 minutes. Our clients love the professional appearance.",
     name: "Markus Weber",
-    role: "Geschaeftsfuehrer",
+    role: "Geschäftsführer",
     company: "AviationStaff GmbH",
   },
   {
-    quote: "Die DSGVO-Compliance war fuer uns entscheidend. Mit HYRE koennen wir bedenkenlos arbeiten.",
+    quote: "Die DSGVO-Compliance war für uns entscheidend. Mit HYRE können wir bedenkenlos arbeiten.",
     quoteEn: "GDPR compliance was crucial for us. With HYRE we can work without worries.",
     name: "Julia Schneider",
     role: "Datenschutzbeauftragte",
     company: "RecruitFirst AG",
   },
   {
-    quote: "Von LinkedIn direkt in die Pipeline - die Chrome Extension ist ein Game-Changer fuer unser Sourcing.",
+    quote: "Von LinkedIn direkt in die Pipeline - die Chrome Extension ist ein Game-Changer für unser Sourcing.",
     quoteEn: "From LinkedIn directly into the pipeline - the Chrome extension is a game-changer for our sourcing.",
     name: "Tobias Fischer",
     role: "Tech Recruiter",

@@ -8,7 +8,7 @@ import {
   AnimatePresence,
 } from "framer-motion";
 import { useTranslations, useLocale } from "next-intl";
-import { useRouter, usePathname } from "@/i18n/navigation";
+import { Link, useRouter, usePathname } from "@/i18n/navigation";
 import { cn } from "@/lib/cn";
 
 export function Navbar() {
@@ -31,14 +31,15 @@ export function Navbar() {
   const targetLocale = currentLocale === "de" ? "en" : "de";
 
   function switchLocale() {
-    router.push(pathname, { locale: targetLocale });
+    router.push(pathname as any, { locale: targetLocale });
   }
 
   const links = [
-    { href: "#features", label: t("features") },
-    { href: "#product", label: t("screenshots") },
-    { href: "#pricing", label: t("pricing") },
-    { href: "#contact", label: t("contact") },
+    { href: "/dienstleistungen" as const, label: t("services") },
+    { href: "/acquire" as const, label: t("acquire") },
+    { href: "/plattform" as const, label: t("platform") },
+    { href: "/ueber-uns" as const, label: t("about") },
+    { href: "/kontakt" as const, label: t("contact") },
   ];
 
   return (
@@ -54,43 +55,48 @@ export function Navbar() {
       >
         <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6">
           {/* Logo */}
-          <a href="#" className="text-xl font-bold tracking-tight text-text-primary">
+          <Link href="/" className="text-xl font-bold tracking-tight text-text-primary">
             HYRE<span className="text-accent">.</span>
-          </a>
+          </Link>
 
           {/* Desktop Nav */}
-          <div className="hidden items-center gap-8 md:flex">
+          <div className="hidden items-center gap-8 lg:flex">
             {links.map((link) => (
-              <a
+              <Link
                 key={link.href}
                 href={link.href}
-                className="text-sm text-text-secondary transition-colors hover:text-text-primary"
+                className={cn(
+                  "text-sm transition-colors hover:text-text-primary",
+                  pathname === link.href
+                    ? "text-accent font-medium"
+                    : "text-text-secondary",
+                )}
               >
                 {link.label}
-              </a>
+              </Link>
             ))}
           </div>
 
           {/* Right side */}
-          <div className="hidden items-center gap-3 md:flex">
+          <div className="hidden items-center gap-3 lg:flex">
             <button
               onClick={switchLocale}
               className="rounded-lg px-3 py-1.5 text-sm text-text-secondary transition-colors hover:bg-white/5 hover:text-text-primary"
             >
               {t("language")}
             </button>
-            <a
-              href="#contact"
+            <Link
+              href="/kontakt"
               className="rounded-lg bg-accent px-4 py-2 text-sm font-medium text-white transition-all hover:bg-accent-light hover:shadow-lg hover:shadow-accent/20"
             >
-              {t("demo")}
-            </a>
+              {t("cta")}
+            </Link>
           </div>
 
           {/* Mobile hamburger */}
           <button
             onClick={() => setMobileOpen(!mobileOpen)}
-            className="relative z-50 flex h-8 w-8 flex-col items-center justify-center gap-1.5 md:hidden"
+            className="relative z-50 flex h-8 w-8 flex-col items-center justify-center gap-1.5 lg:hidden"
             aria-label="Menu"
           >
             <motion.span
@@ -117,17 +123,20 @@ export function Navbar() {
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: "100%" }}
             transition={{ duration: 0.3, ease: [0.25, 0.1, 0.25, 1] }}
-            className="glass-strong fixed inset-0 z-40 flex flex-col items-center justify-center gap-8 md:hidden"
+            className="glass-strong fixed inset-0 z-40 flex flex-col items-center justify-center gap-8 lg:hidden"
           >
             {links.map((link) => (
-              <a
+              <Link
                 key={link.href}
                 href={link.href}
                 onClick={() => setMobileOpen(false)}
-                className="text-2xl font-medium text-text-primary transition-colors hover:text-accent"
+                className={cn(
+                  "text-2xl font-medium transition-colors hover:text-accent",
+                  pathname === link.href ? "text-accent" : "text-text-primary",
+                )}
               >
                 {link.label}
-              </a>
+              </Link>
             ))}
             <button
               onClick={() => {
@@ -138,13 +147,13 @@ export function Navbar() {
             >
               {t("language")}
             </button>
-            <a
-              href="#contact"
+            <Link
+              href="/kontakt"
               onClick={() => setMobileOpen(false)}
               className="rounded-xl bg-accent px-8 py-3 text-lg font-medium text-white"
             >
-              {t("demo")}
-            </a>
+              {t("cta")}
+            </Link>
           </motion.div>
         )}
       </AnimatePresence>

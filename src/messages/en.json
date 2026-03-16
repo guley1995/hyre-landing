@@ -1,56 +1,110 @@
 {
+  "metadata": {
+    "title": "HYRE — Recruiting Technology for Staffing Agencies",
+    "description": "HYRE provides AI-powered recruiting solutions for staffing agencies and temporary work firms. Acquire, automation and SaaS platform.",
+    "og_title": "HYRE — Recruiting Technology for Staffing Agencies",
+    "og_description": "AI-powered recruiting solutions: Acquire, automation and SaaS platform for staffing agencies."
+  },
   "nav": {
-    "features": "Features",
-    "screenshots": "Product",
-    "pricing": "Pricing",
+    "services": "Services",
+    "acquire": "Acquire",
+    "platform": "Platform",
+    "about": "About Us",
     "contact": "Contact",
-    "demo": "Book a Demo",
+    "cta": "Book a Call",
     "language": "DE"
   },
   "hero": {
-    "badge": "AI-Powered Recruiting",
+    "badge": "For Staffing Agencies & Recruiters",
     "title1": "Recruiting.",
     "title2": "Redefined.",
-    "subtitle": "The all-in-one platform for modern recruiting. AI-powered candidate analysis, automated workflows, and a career portal in your brand design.",
-    "cta_primary": "Start for Free",
-    "cta_secondary": "Watch Live Demo",
+    "subtitle": "HYRE delivers AI-powered solutions for staffing agencies: From automated meeting generation to a complete recruiting platform.",
+    "cta_primary": "Book a Call",
+    "cta_secondary": "View Services",
     "trust_gdpr": "GDPR Compliant",
     "trust_germany": "Made in Germany",
     "trust_ai": "AI-Powered"
   },
+  "serviceAreas": {
+    "subtitle": "Our Solutions",
+    "title": "Everything for your recruiting business.",
+    "description": "From new client acquisition to the complete platform — we cover the entire value chain for staffing agencies.",
+    "items": [
+      {
+        "title": "HYRE Acquire",
+        "description": "AI-powered meeting generation and client acquisition for staffing agencies. We deliver qualified decision-maker meetings — you close the deal.",
+        "bullets": [
+          "Qualified decision-maker meetings",
+          "Purely performance-based: EUR 250/meeting",
+          "AI-powered prospect qualification"
+        ],
+        "linkLabel": "Learn more about Acquire"
+      },
+      {
+        "title": "Recruiting Automation",
+        "description": "Sourcing bots, AI CV matching and multi-channel communication. Automate your operational recruiting processes.",
+        "bullets": [
+          "AI-powered candidate sourcing",
+          "Automatic CV parsing & matching",
+          "WhatsApp, email & SMS from one platform"
+        ],
+        "linkLabel": "All Services"
+      },
+      {
+        "title": "Platform & Tools",
+        "description": "The HYRE SaaS platform: Career portal, Kanban pipeline, analytics and job board feeds in one solution.",
+        "bullets": [
+          "White-label career portal",
+          "Kanban pipeline with AI matching",
+          "Indeed, Stepstone & Google Jobs feeds"
+        ],
+        "linkLabel": "Go to Platform"
+      },
+      {
+        "title": "Compliance & Consulting",
+        "description": "GDPR compliance suite, LinkedIn automation and strategic process consulting for your recruiting.",
+        "bullets": [
+          "GDPR-compliant consent management",
+          "LinkedIn Chrome Extension",
+          "Individual process consulting"
+        ],
+        "linkLabel": "All Services"
+      }
+    ]
+  },
   "features": {
     "title": "Everything you need.",
-    "subtitle": "From application to placement - HYRE automates your entire recruiting process.",
+    "subtitle": "From application to placement — HYRE automates your entire recruiting process.",
     "cv_parsing_title": "AI CV Parsing",
-    "cv_parsing_desc": "Automatic extraction of skills, experience, and qualifications from CVs in seconds.",
+    "cv_parsing_desc": "Automatic extraction of skills, experience and qualifications from CVs in seconds.",
     "pipeline_title": "Kanban Pipeline",
-    "pipeline_desc": "Drag & drop applicant management with 14 configurable stages and real-time updates.",
+    "pipeline_desc": "Drag & drop candidate management with 14 configurable stages and real-time updates.",
     "portal_title": "Career Portal",
-    "portal_desc": "White-label career site in your design. Your domain, your colors, your branding.",
+    "portal_desc": "White-label career page in your design. Custom domain, custom colors, your branding.",
     "analytics_title": "Analytics Dashboard",
-    "analytics_desc": "Time-to-hire, cost-per-hire, conversion funnels, and revenue tracking in real-time.",
+    "analytics_desc": "Time-to-hire, cost-per-hire, conversion funnels and revenue tracking in real-time.",
     "linkedin_title": "LinkedIn Integration",
     "linkedin_desc": "Chrome extension for one-click import of LinkedIn profiles directly into your pipeline.",
     "multichannel_title": "Multi-Channel",
-    "multichannel_desc": "Contact candidates via email, WhatsApp, or SMS - all from one platform.",
+    "multichannel_desc": "Contact candidates via email, WhatsApp or SMS — all from one platform.",
     "gdpr_title": "GDPR Compliant",
     "gdpr_desc": "Consent management, data export, automatic deletion deadlines. 100% compliant.",
     "feeds_title": "Job Board Feeds",
-    "feeds_desc": "Automatic publishing to Indeed, Stepstone, Google Jobs, and more."
+    "feeds_desc": "Automatic publishing to Indeed, Stepstone, Google Jobs and more."
   },
   "screenshots": {
     "section1_title": "Pipeline under control.",
     "section1_subtitle": "Drag & drop Kanban board with real-time updates",
     "section1_bullet1": "14 configurable pipeline stages",
-    "section1_bullet2": "Optimistic UI - changes visible instantly",
+    "section1_bullet2": "Optimistic UI — changes visible instantly",
     "section1_bullet3": "AI placement prediction per candidate",
     "section2_title": "AI that delivers.",
-    "section2_subtitle": "Matching, analytics, and automation",
+    "section2_subtitle": "Matching, analytics and automation",
     "section2_bullet1": "Vector-based candidate matching",
     "section2_bullet2": "Revenue and cost-per-hire tracking",
-    "section2_bullet3": "Automatic expose generation",
+    "section2_bullet3": "Automatic profile generation",
     "section3_title": "Your portal.",
-    "section3_subtitle": "White-label career site in minutes",
+    "section3_subtitle": "White-label career page in minutes",
     "section3_bullet1": "Custom domain and branding",
     "section3_bullet2": "Mobile-optimized application form",
     "section3_bullet3": "GDPR-compliant application intake"
@@ -60,7 +114,7 @@
     "subtitle": "No hidden costs. Cancel anytime.",
     "monthly": "/month",
     "popular": "Popular",
-    "cta": "Get started",
+    "cta": "Get Started",
     "contact_sales": "Contact Sales",
     "users": "Users",
     "candidates": "Candidates",
@@ -80,37 +134,426 @@
     "feature_custom_domain": "Custom Domain",
     "feature_priority": "Priority Support",
     "feature_dedicated": "Dedicated Account Manager",
-    "success_fee_title": "5 % Success Fee",
-    "success_fee_desc": "In addition to the platform fee, we charge a 5 % placement fee for every successful hire made through HYRE. Pay only on success - zero risk."
+    "success_fee_title": "5% Placement Fee",
+    "success_fee_desc": "In addition to platform costs, we charge a 5% fee on every successful placement through HYRE. Only on success — no risk."
   },
   "cta": {
-    "title": "Ready to reimagine recruiting?",
-    "subtitle": "Start for free and see how AI transforms your recruiting process.",
-    "placeholder": "Email address",
-    "button": "Start for Free"
+    "title": "Ready to transform your recruiting?",
+    "subtitle": "Let's talk — free consultation in 15 minutes.",
+    "placeholder": "Email Address",
+    "button": "Book a Call"
+  },
+  "services": {
+    "hero": {
+      "subtitle": "Services",
+      "title": "Solutions for staffing agencies.",
+      "description": "From client acquisition to GDPR compliance — we offer everything modern staffing agencies need."
+    },
+    "categories": {
+      "acquire": {
+        "title": "HYRE Acquire",
+        "description": "AI-powered meeting generation and client acquisition. We deliver qualified meetings with decision-makers.",
+        "items": [
+          {
+            "title": "AI Meeting Generation",
+            "description": "Our AI identifies and qualifies prospects from your target audience and schedules meetings with decision-makers."
+          },
+          {
+            "title": "Acquisition Automation",
+            "description": "Automated outreach campaigns via email, LinkedIn and phone with AI-powered personalization."
+          }
+        ]
+      },
+      "automation": {
+        "title": "Recruiting Automation",
+        "description": "Automate your operational recruiting processes with AI-powered tools.",
+        "items": [
+          {
+            "title": "Candidate Sourcing Bots",
+            "description": "AI bots search job boards and social media for matching candidates and fill your pipeline automatically."
+          },
+          {
+            "title": "CV Parsing & Matching",
+            "description": "Automatic extraction of skills and experience from resumes with vector-based matching against open positions."
+          },
+          {
+            "title": "Multi-Channel Communication",
+            "description": "Reach candidates via email, WhatsApp and SMS — all from one platform with automated follow-ups."
+          }
+        ]
+      },
+      "platform": {
+        "title": "Platform & Tools",
+        "description": "The complete HYRE SaaS platform for modern recruiting.",
+        "items": [
+          {
+            "title": "White-Label Career Portal",
+            "description": "Career page in your design with custom domain, mobile-optimized application form and GDPR-compliant intake."
+          },
+          {
+            "title": "Kanban Pipeline",
+            "description": "Drag & drop candidate management with 14 configurable stages, real-time updates and AI placement prediction."
+          },
+          {
+            "title": "Analytics Dashboard",
+            "description": "Time-to-hire, cost-per-hire, conversion funnels and revenue tracking — all in real-time."
+          },
+          {
+            "title": "Job Board Feeds",
+            "description": "Automatic publishing to Indeed, Stepstone, Google Jobs and more platforms."
+          }
+        ]
+      },
+      "compliance": {
+        "title": "Compliance & Consulting",
+        "description": "GDPR compliance, LinkedIn automation and strategic process consulting.",
+        "items": [
+          {
+            "title": "GDPR Compliance Suite",
+            "description": "Consent management, automatic deletion deadlines, data export and complete documentation."
+          },
+          {
+            "title": "LinkedIn Automation",
+            "description": "Chrome extension for one-click import of LinkedIn profiles and automated outreach."
+          },
+          {
+            "title": "Process Consulting",
+            "description": "Individual analysis and optimization of your recruiting processes with process mining and best practices."
+          }
+        ]
+      }
+    },
+    "learnMore": "Learn more",
+    "cta": {
+      "title": "Ready to get started?",
+      "description": "Schedule a free consultation and find out which solutions best fit your business.",
+      "button": "Book a Call"
+    }
+  },
+  "acquire": {
+    "hero": {
+      "badge": "Performance-based",
+      "title1": "Qualified Meetings.",
+      "title2": "Guaranteed.",
+      "description": "HYRE Acquire generates qualified decision-maker meetings for staffing agencies. Our AI identifies, qualifies and schedules meetings — you only pay on success.",
+      "cta": "Start Your Pilot"
+    },
+    "workflow": {
+      "subtitle": "How it works",
+      "title": "From target audience to meeting in 4 steps.",
+      "steps": [
+        {
+          "num": "01",
+          "title": "Define Target Audience",
+          "description": "Together we define your ideal clients: industry, company size, region and contacts."
+        },
+        {
+          "num": "02",
+          "title": "AI Qualification",
+          "description": "Our AI analyzes thousands of companies, identifies demand signals and qualifies prospects automatically."
+        },
+        {
+          "num": "03",
+          "title": "Outreach & Scheduling",
+          "description": "Personalized multi-channel campaigns via email, LinkedIn and phone generate qualified meetings."
+        },
+        {
+          "num": "04",
+          "title": "Meeting & Close",
+          "description": "You lead the conversation with a pre-qualified decision-maker. We provide briefing and contact history."
+        }
+      ]
+    },
+    "pricing": {
+      "subtitle": "Pricing",
+      "title": "EUR 250 per Meeting",
+      "description": "Purely performance-based — no fixed costs, no risks. You only pay for qualified meetings that actually take place.",
+      "price": "EUR 250",
+      "per": "per qualified meeting"
+    },
+    "benefits": {
+      "title": "This is included:",
+      "items": [
+        "AI-powered prospect research",
+        "Multi-channel outreach (email, LinkedIn, phone)",
+        "Scheduling with decision-makers",
+        "Meeting briefing and contact history",
+        "No setup fees",
+        "Cancel monthly"
+      ]
+    },
+    "pilot": {
+      "title": "Start your pilot.",
+      "description": "Test HYRE Acquire risk-free. We start with a defined pilot project and scale on success.",
+      "cta": "Free Consultation"
+    }
+  },
+  "platform": {
+    "hero": {
+      "subtitle": "SaaS Platform",
+      "title": "The all-in-one recruiting platform.",
+      "description": "HYRE combines Kanban pipeline, AI CV parsing, white-label career portal and analytics in one platform — built specifically for staffing agencies.",
+      "cta": "Book a Demo"
+    },
+    "features": {
+      "items": [
+        {
+          "title": "AI CV Parsing",
+          "description": "Automatic extraction of skills, experience and qualifications from CVs in seconds."
+        },
+        {
+          "title": "Kanban Pipeline",
+          "description": "Drag & drop candidate management with 14 configurable stages and real-time updates."
+        },
+        {
+          "title": "Career Portal",
+          "description": "White-label career page in your design with custom domain and mobile application form."
+        },
+        {
+          "title": "Analytics Dashboard",
+          "description": "Time-to-hire, cost-per-hire, conversion funnels and revenue tracking in real-time."
+        },
+        {
+          "title": "LinkedIn Integration",
+          "description": "Chrome extension for one-click import of LinkedIn profiles directly into your pipeline."
+        },
+        {
+          "title": "Multi-Channel",
+          "description": "Contact candidates via email, WhatsApp or SMS — all from one platform."
+        },
+        {
+          "title": "GDPR Compliant",
+          "description": "Consent management, data export and automatic deletion deadlines. 100% compliant."
+        },
+        {
+          "title": "Job Board Feeds",
+          "description": "Automatic publishing to Indeed, Stepstone, Google Jobs and more."
+        }
+      ]
+    },
+    "pricing": {
+      "title": "Transparent pricing.",
+      "subtitle": "No hidden costs. Cancel anytime.",
+      "cta": "Get Started",
+      "note": "Additional 5% placement fee per successful placement through HYRE.",
+      "tiers": [
+        {
+          "name": "Professional",
+          "price": "EUR 999",
+          "description": "For small staffing agencies and teams.",
+          "features": [
+            "Up to 5 users",
+            "500 candidates",
+            "Kanban Pipeline",
+            "AI CV Parsing",
+            "Analytics Dashboard"
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "price": "EUR 1,200",
+          "description": "For growing agencies with multiple teams.",
+          "features": [
+            "Up to 20 users",
+            "Unlimited candidates",
+            "White-Label Portal",
+            "Multi-Channel",
+            "Priority Support"
+          ]
+        },
+        {
+          "name": "Whitelabel",
+          "price": "EUR 1,500",
+          "description": "Completely in your branding. Unlimited.",
+          "features": [
+            "Unlimited users",
+            "Unlimited candidates",
+            "Custom Domain",
+            "API Access",
+            "Dedicated Account Manager"
+          ]
+        }
+      ]
+    }
+  },
+  "about": {
+    "hero": {
+      "subtitle": "About HYRE",
+      "title": "Recruiting technology from Berlin.",
+      "description": "HYRE was founded to modernize the recruiting market for staffing agencies. We combine AI, automation and deep industry expertise."
+    },
+    "story": {
+      "title": "Our Story",
+      "p1": "HYRE was born from the conviction that staffing agencies deserve better technology. Too often, agencies rely on manual processes, outdated software and expensive, inefficient acquisition methods.",
+      "p2": "As founders with experience in Vendor Management Systems, Process Mining and AI technology, we built HYRE to solve exactly these problems — with a platform designed specifically for the needs of staffing agencies.",
+      "p3": "Today, with HYRE Acquire, our SaaS platform and HYRE Consulting, we offer three complementary pillars that cover the entire value chain for staffing agencies."
+    },
+    "pillars": {
+      "title": "Three Pillars. One Goal.",
+      "subtitle": "The HYRE ecosystem for modern staffing agencies.",
+      "items": [
+        {
+          "label": "Services",
+          "title": "HYRE Acquire",
+          "description": "AI-powered meeting generation and client acquisition for staffing agencies. Purely performance-based — EUR 250 per qualified meeting."
+        },
+        {
+          "label": "Platform",
+          "title": "HYRE SaaS",
+          "description": "The all-in-one recruiting platform with Kanban pipeline, AI CV parsing, white-label portal and analytics — from EUR 999/month."
+        },
+        {
+          "label": "Consulting",
+          "title": "HYRE Consulting",
+          "description": "Direct placement of specialists and executives for companies. Specialized in IT, Finance and Engineering."
+        }
+      ]
+    },
+    "values": {
+      "title": "What drives us.",
+      "items": [
+        {
+          "title": "Performance over Promises",
+          "description": "We measure ourselves by results. Whether Acquire meetings or platform KPIs — everything is transparent and traceable."
+        },
+        {
+          "title": "Technology with Industry Expertise",
+          "description": "We don't build generic tools. Every feature is specifically designed for the needs of staffing agencies."
+        },
+        {
+          "title": "Partnership over Service",
+          "description": "We see ourselves as partners of our clients. Your success is our success — that's why we work performance-based."
+        },
+        {
+          "title": "Made in Germany",
+          "description": "GDPR-compliant, German servers, German support. Recruiting technology you can trust."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Let's talk.",
+      "description": "Find out in a free consultation how HYRE can transform your recruiting business.",
+      "button": "Book a Call"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Get in Touch.",
+      "description": "Schedule a free consultation or write to us directly. We'll get back to you within 24 hours."
+    },
+    "form": {
+      "name": "Name",
+      "name_placeholder": "Your name",
+      "email": "Email",
+      "email_placeholder": "name@company.com",
+      "company": "Company",
+      "company_placeholder": "Your company",
+      "phone": "Phone",
+      "phone_placeholder": "+49 ...",
+      "message": "Message",
+      "message_placeholder": "How can we help you?",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "error": "Error sending. Please try again.",
+      "success": {
+        "title": "Message sent!",
+        "description": "Thank you for your message. We'll get back to you within 24 hours."
+      }
+    },
+    "info": {
+      "title": "Direct Contact",
+      "description": "Have questions or want to schedule a free consultation? We look forward to hearing from you.",
+      "email": "Email",
+      "location": "Location",
+      "cta_title": "Free Consultation",
+      "cta_description": "In 15 minutes we'll show you how HYRE can improve your recruiting business."
+    }
+  },
+  "legal": {
+    "imprint": {
+      "title": "Imprint",
+      "company_info": "Information according to § 5 TMG",
+      "company_details": "HYRE\nHüsnü Güley\nBerlin, Germany",
+      "represented_by": "Represented by",
+      "representative": "Hüsnü Güley, Managing Director",
+      "contact_title": "Contact",
+      "contact_details": "Email: info@huehyre.de\nWebsite: https://huehyre.de",
+      "disclaimer_title": "Disclaimer",
+      "disclaimer_text": "The contents of our pages were created with the greatest care. However, we cannot guarantee the accuracy, completeness and timeliness of the content."
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "sections": [
+        {
+          "title": "1. Privacy at a Glance",
+          "content": "The following notes provide a simple overview of what happens to your personal data when you visit our website."
+        },
+        {
+          "title": "2. Responsible Party",
+          "content": "Responsible for data processing on this website is:\n\nHYRE\nHüsnü Güley\nBerlin, Germany\nEmail: info@huehyre.de"
+        },
+        {
+          "title": "3. Data Collection on Our Website",
+          "content": "Data processing on this website is carried out by the website operator. When you visit our website, information is automatically stored in server log files that your browser automatically transmits to us."
+        },
+        {
+          "title": "4. Contact Form",
+          "content": "If you send us inquiries via the contact form, your details from the inquiry form including the contact data you provided will be stored by us for the purpose of processing the inquiry."
+        },
+        {
+          "title": "5. Hosting",
+          "content": "This website is hosted by Vercel Inc. The servers are located in the EU. Vercel processes data in accordance with the GDPR."
+        },
+        {
+          "title": "6. Your Rights",
+          "content": "You have the right at any time to receive free information about the origin, recipient and purpose of your stored personal data. You also have the right to request the correction or deletion of this data."
+        }
+      ]
+    },
+    "terms": {
+      "title": "Terms and Conditions",
+      "sections": [
+        {
+          "title": "1. Scope",
+          "content": "These General Terms and Conditions apply to all contracts between HYRE and its customers for the provision of services in the field of recruiting technology and staffing services."
+        },
+        {
+          "title": "2. Scope of Services",
+          "content": "The scope of services results from the respective service description and the individual offer. Changes to the scope of services require written agreement."
+        },
+        {
+          "title": "3. Remuneration",
+          "content": "Remuneration is based on the applicable price list or individual offer. For performance-based models (e.g., HYRE Acquire), remuneration is only due when the defined success occurs."
+        },
+        {
+          "title": "4. Confidentiality",
+          "content": "Both parties undertake to treat all confidential information that becomes known in the course of cooperation as confidential and not to disclose it to third parties."
+        },
+        {
+          "title": "5. Liability",
+          "content": "HYRE's liability is limited to intent and gross negligence. Liability for indirect damages and lost profits is excluded to the extent permitted by law."
+        },
+        {
+          "title": "6. Final Provisions",
+          "content": "The law of the Federal Republic of Germany applies. The place of jurisdiction for all disputes is Berlin, provided the customer is a merchant."
+        }
+      ]
+    }
   },
   "footer": {
-    "product": "Product",
-    "features": "Features",
-    "pricing": "Pricing",
-    "integrations": "Integrations",
-    "changelog": "Changelog",
-    "resources": "Resources",
-    "docs": "Documentation",
-    "api_reference": "API Reference",
-    "blog": "Blog",
-    "status": "Status",
+    "services_title": "Solutions",
+    "services_all": "All Services",
+    "acquire": "HYRE Acquire",
+    "platform": "Platform",
     "company": "Company",
     "about": "About Us",
-    "careers": "Careers",
     "contact": "Contact",
-    "partners": "Partners",
     "legal": "Legal",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
+    "privacy": "Privacy",
+    "terms": "Terms",
     "imprint": "Imprint",
-    "dpa": "DPA",
+    "email_label": "Email",
     "copyright": "All rights reserved.",
-    "tagline": "AI-powered recruiting for modern teams."
+    "tagline": "AI-powered recruiting technology for staffing agencies."
   }
 }

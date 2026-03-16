@@ -4,17 +4,24 @@ import { getMessages } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { Providers } from "@/components/providers";
+import { Navbar } from "@/components/navbar";
+import { Footer } from "@/components/footer";
 import "../globals.css";
 
 export const metadata: Metadata = {
-  title: "HYRE - KI-gestuetztes Recruiting | AI-Powered Recruiting Platform",
+  title: {
+    default: "HYRE — Recruiting-Technologie für Personaldienstleister",
+    template: "%s | HYRE",
+  },
   description:
-    "Die All-in-One Plattform fuer modernes Recruiting. KI-gestuetzte Kandidatenanalyse, Kanban Pipeline, White-Label Karriereportal und mehr.",
+    "HYRE bietet KI-gestützte Recruiting-Lösungen für Personaldienstleister und Zeitarbeitsfirmen. Acquire, Automatisierung und SaaS-Plattform.",
   openGraph: {
-    title: "HYRE - Recruiting. Neu definiert.",
+    title: "HYRE — Recruiting-Technologie für Personaldienstleister",
     description:
-      "KI-gestuetzte Recruiting-Plattform mit Kanban Pipeline, White-Label Karriereportal und Analytics.",
+      "KI-gestützte Recruiting-Lösungen: Acquire, Automatisierung und SaaS-Plattform für PDL.",
     type: "website",
+    url: "https://huehyre.de",
+    siteName: "HYRE",
   },
 };
 
@@ -50,7 +57,9 @@ export default async function LocaleLayout({
       <body className="min-h-screen bg-bg-primary font-sans antialiased">
         <NextIntlClientProvider messages={messages}>
           <Providers>
-            {children}
+            <Navbar />
+            <main>{children}</main>
+            <Footer />
           </Providers>
         </NextIntlClientProvider>
       </body>

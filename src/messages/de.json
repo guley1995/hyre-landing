@@ -1,26 +1,80 @@
 {
+  "metadata": {
+    "title": "HYRE — Recruiting-Technologie für Personaldienstleister",
+    "description": "HYRE bietet KI-gestützte Recruiting-Lösungen für Personaldienstleister und Zeitarbeitsfirmen. Acquire, Automatisierung und SaaS-Plattform.",
+    "og_title": "HYRE — Recruiting-Technologie für Personaldienstleister",
+    "og_description": "KI-gestützte Recruiting-Lösungen: Acquire, Automatisierung und SaaS-Plattform für PDL."
+  },
   "nav": {
-    "features": "Features",
-    "screenshots": "Produkt",
-    "pricing": "Preise",
+    "services": "Dienstleistungen",
+    "acquire": "Acquire",
+    "platform": "Plattform",
+    "about": "Über uns",
     "contact": "Kontakt",
-    "demo": "Demo buchen",
+    "cta": "Erstgespräch buchen",
     "language": "EN"
   },
   "hero": {
-    "badge": "KI-gestuetztes Recruiting",
+    "badge": "Für Personaldienstleister & Zeitarbeit",
     "title1": "Recruiting.",
     "title2": "Neu definiert.",
-    "subtitle": "Die All-in-One Plattform fuer modernes Recruiting. KI-gestuetzte Kandidatenanalyse, automatisierte Workflows und ein Karriereportal in eurem Design.",
-    "cta_primary": "Kostenlos starten",
-    "cta_secondary": "Live-Demo ansehen",
+    "subtitle": "HYRE liefert KI-gestützte Lösungen für Personaldienstleister: Von der automatisierten Terminengenerierung bis zur kompletten Recruiting-Plattform.",
+    "cta_primary": "Erstgespräch buchen",
+    "cta_secondary": "Dienstleistungen ansehen",
     "trust_gdpr": "DSGVO-konform",
     "trust_germany": "Made in Germany",
-    "trust_ai": "KI-gestuetzt"
+    "trust_ai": "KI-gestützt"
+  },
+  "serviceAreas": {
+    "subtitle": "Unsere Lösungen",
+    "title": "Alles für euer Recruiting-Business.",
+    "description": "Von der Neukundengewinnung bis zur kompletten Plattform — wir decken den gesamten Wertschöpfungsprozess für Personaldienstleister ab.",
+    "items": [
+      {
+        "title": "HYRE Acquire",
+        "description": "KI-gestützte Terminengenerierung und Auftragsakquise für Personaldienstleister. Wir liefern qualifizierte Entscheider-Termine — ihr schließt ab.",
+        "bullets": [
+          "Qualifizierte Entscheider-Termine",
+          "Rein erfolgsbasiert: 250 €/Meeting",
+          "KI-gestützte Prospect-Qualifizierung"
+        ],
+        "linkLabel": "Mehr zu Acquire"
+      },
+      {
+        "title": "Recruiting-Automatisierung",
+        "description": "Sourcing-Bots, KI-CV-Matching und Multi-Channel-Kommunikation. Automatisiert eure operativen Recruiting-Prozesse.",
+        "bullets": [
+          "KI-gestützte Kandidatensuche",
+          "Automatisches CV-Parsing & Matching",
+          "WhatsApp, E-Mail & SMS aus einer Plattform"
+        ],
+        "linkLabel": "Alle Dienstleistungen"
+      },
+      {
+        "title": "Plattform & Tools",
+        "description": "Die HYRE SaaS-Plattform: Karriereportal, Kanban-Pipeline, Analytics und Job-Board-Feeds in einer Lösung.",
+        "bullets": [
+          "White-Label Karriereportal",
+          "Kanban-Pipeline mit KI-Matching",
+          "Indeed, Stepstone & Google Jobs Feeds"
+        ],
+        "linkLabel": "Zur Plattform"
+      },
+      {
+        "title": "Compliance & Beratung",
+        "description": "DSGVO-Compliance-Suite, LinkedIn-Automatisierung und strategische Prozessberatung für euer Recruiting.",
+        "bullets": [
+          "DSGVO-konformes Einwilligungsmanagement",
+          "LinkedIn Chrome Extension",
+          "Individuelle Prozessberatung"
+        ],
+        "linkLabel": "Alle Dienstleistungen"
+      }
+    ]
   },
   "features": {
-    "title": "Alles was du brauchst.",
-    "subtitle": "Von der Bewerbung bis zur Platzierung - HYRE automatisiert deinen gesamten Recruiting-Prozess.",
+    "title": "Alles was ihr braucht.",
+    "subtitle": "Von der Bewerbung bis zur Platzierung — HYRE automatisiert euren gesamten Recruiting-Prozess.",
     "cv_parsing_title": "KI CV-Parsing",
     "cv_parsing_desc": "Automatische Extraktion von Skills, Erfahrung und Qualifikationen aus CVs in Sekunden.",
     "pipeline_title": "Kanban Pipeline",
@@ -30,25 +84,25 @@
     "analytics_title": "Analytics Dashboard",
     "analytics_desc": "Time-to-Hire, Cost-per-Hire, Conversion-Funnels und Revenue-Tracking in Echtzeit.",
     "linkedin_title": "LinkedIn Integration",
-    "linkedin_desc": "Chrome Extension fuer One-Click Import von LinkedIn-Profilen direkt in eure Pipeline.",
+    "linkedin_desc": "Chrome Extension für One-Click Import von LinkedIn-Profilen direkt in eure Pipeline.",
     "multichannel_title": "Multi-Channel",
-    "multichannel_desc": "Kandidaten per E-Mail, WhatsApp oder SMS kontaktieren - alles aus einer Plattform.",
+    "multichannel_desc": "Kandidaten per E-Mail, WhatsApp oder SMS kontaktieren — alles aus einer Plattform.",
     "gdpr_title": "DSGVO-konform",
-    "gdpr_desc": "Einwilligungsmanagement, Datenexport, automatische Loeschfristen. 100% konform.",
+    "gdpr_desc": "Einwilligungsmanagement, Datenexport, automatische Löschfristen. 100% konform.",
     "feeds_title": "Job-Board Feeds",
-    "feeds_desc": "Automatische Veroeffentlichung auf Indeed, Stepstone, Google Jobs und mehr."
+    "feeds_desc": "Automatische Veröffentlichung auf Indeed, Stepstone, Google Jobs und mehr."
   },
   "screenshots": {
     "section1_title": "Pipeline im Griff.",
     "section1_subtitle": "Drag & Drop Kanban-Board mit Echtzeit-Updates",
     "section1_bullet1": "14 konfigurierbare Pipeline-Stages",
-    "section1_bullet2": "Optimistic UI - Aenderungen sofort sichtbar",
+    "section1_bullet2": "Optimistic UI — Änderungen sofort sichtbar",
     "section1_bullet3": "KI-Platzierungsvorhersage pro Kandidat",
     "section2_title": "KI die liefert.",
     "section2_subtitle": "Matching, Analytics und Automatisierung",
     "section2_bullet1": "Vektor-basiertes Kandidaten-Matching",
     "section2_bullet2": "Revenue und Cost-per-Hire Tracking",
-    "section2_bullet3": "Automatische Expose-Generierung",
+    "section2_bullet3": "Automatische Exposé-Generierung",
     "section3_title": "Euer Portal.",
     "section3_subtitle": "White-Label Karriereseite in Minuten",
     "section3_bullet1": "Eigene Domain und Branding",
@@ -57,7 +111,7 @@
   },
   "pricing": {
     "title": "Transparente Preise.",
-    "subtitle": "Keine versteckten Kosten. Jederzeit kuendbar.",
+    "subtitle": "Keine versteckten Kosten. Jederzeit kündbar.",
     "monthly": "/Monat",
     "popular": "Beliebt",
     "cta": "Jetzt starten",
@@ -81,36 +135,425 @@
     "feature_priority": "Priority Support",
     "feature_dedicated": "Dedicated Account Manager",
     "success_fee_title": "5 % Vermittlungshonorar",
-    "success_fee_desc": "Zusaetzlich zu den Plattformkosten beteiligen wir uns mit 5 % Honorar an jeder erfolgreichen Vermittlung ueber HYRE. Erst bei Erfolg - kein Risiko."
+    "success_fee_desc": "Zusätzlich zu den Plattformkosten beteiligen wir uns mit 5 % Honorar an jeder erfolgreichen Vermittlung über HYRE. Erst bei Erfolg — kein Risiko."
   },
   "cta": {
-    "title": "Bereit, Recruiting neu zu erleben?",
-    "subtitle": "Starte jetzt kostenlos und erlebe, wie KI deinen Recruiting-Prozess transformiert.",
+    "title": "Bereit, euer Recruiting zu transformieren?",
+    "subtitle": "Lasst uns sprechen — kostenloses Erstgespräch in 15 Minuten.",
     "placeholder": "E-Mail Adresse",
-    "button": "Kostenlos starten"
+    "button": "Erstgespräch buchen"
+  },
+  "services": {
+    "hero": {
+      "subtitle": "Dienstleistungen",
+      "title": "Lösungen für Personaldienstleister.",
+      "description": "Von der Neukundengewinnung bis zur DSGVO-Compliance — wir bieten alles, was moderne Personaldienstleister brauchen."
+    },
+    "categories": {
+      "acquire": {
+        "title": "HYRE Acquire",
+        "description": "KI-gestützte Terminengenerierung und Auftragsakquise. Wir liefern qualifizierte Meetings mit Entscheidern.",
+        "items": [
+          {
+            "title": "KI-Terminengenerierung",
+            "description": "Unsere KI identifiziert und qualifiziert Prospects aus eurer Zielgruppe und generiert Termine mit Entscheidern."
+          },
+          {
+            "title": "Auftragsakquise-Automatisierung",
+            "description": "Automatisierte Outreach-Kampagnen per E-Mail, LinkedIn und Telefon mit KI-gestützter Personalisierung."
+          }
+        ]
+      },
+      "automation": {
+        "title": "Recruiting-Automatisierung",
+        "description": "Automatisiert eure operativen Recruiting-Prozesse mit KI-gestützten Tools.",
+        "items": [
+          {
+            "title": "Kandidaten-Sourcing-Bots",
+            "description": "KI-Bots durchsuchen Job-Börsen und Social Media nach passenden Kandidaten und füllen eure Pipeline automatisch."
+          },
+          {
+            "title": "CV-Parsing & Matching",
+            "description": "Automatische Extraktion von Skills und Erfahrung aus Lebensläufen mit Vektor-basiertem Matching gegen offene Stellen."
+          },
+          {
+            "title": "Multi-Channel-Kommunikation",
+            "description": "Erreicht Kandidaten per E-Mail, WhatsApp und SMS — alles aus einer Plattform mit automatisierten Follow-ups."
+          }
+        ]
+      },
+      "platform": {
+        "title": "Plattform & Tools",
+        "description": "Die komplette HYRE SaaS-Plattform für modernes Recruiting.",
+        "items": [
+          {
+            "title": "White-Label Karriereportal",
+            "description": "Karriereseite in eurem Design mit eigener Domain, mobiloptimiertem Bewerbungsformular und DSGVO-konformem Eingang."
+          },
+          {
+            "title": "Kanban-Pipeline",
+            "description": "Drag & Drop Bewerbermanagement mit 14 konfigurierbaren Stages, Echtzeit-Updates und KI-Platzierungsvorhersage."
+          },
+          {
+            "title": "Analytics Dashboard",
+            "description": "Time-to-Hire, Cost-per-Hire, Conversion-Funnels und Revenue-Tracking — alles in Echtzeit."
+          },
+          {
+            "title": "Job-Board Feeds",
+            "description": "Automatische Veröffentlichung auf Indeed, Stepstone, Google Jobs und weiteren Plattformen."
+          }
+        ]
+      },
+      "compliance": {
+        "title": "Compliance & Beratung",
+        "description": "DSGVO-Compliance, LinkedIn-Automatisierung und strategische Prozessberatung.",
+        "items": [
+          {
+            "title": "DSGVO-Compliance-Suite",
+            "description": "Einwilligungsmanagement, automatische Löschfristen, Datenexport und vollständige Dokumentation."
+          },
+          {
+            "title": "LinkedIn Automation",
+            "description": "Chrome Extension für One-Click Import von LinkedIn-Profilen und automatisierte Kontaktaufnahme."
+          },
+          {
+            "title": "Prozessberatung",
+            "description": "Individuelle Analyse und Optimierung eurer Recruiting-Prozesse mit Process Mining und Best Practices."
+          }
+        ]
+      }
+    },
+    "learnMore": "Mehr erfahren",
+    "cta": {
+      "title": "Bereit durchzustarten?",
+      "description": "Vereinbart ein kostenloses Erstgespräch und erfahrt, welche Lösungen am besten zu eurem Business passen.",
+      "button": "Erstgespräch buchen"
+    }
+  },
+  "acquire": {
+    "hero": {
+      "badge": "Performance-basiert",
+      "title1": "Qualifizierte Termine.",
+      "title2": "Garantiert.",
+      "description": "HYRE Acquire generiert qualifizierte Entscheider-Termine für Personaldienstleister. Unsere KI identifiziert, qualifiziert und vereinbart Meetings — ihr zahlt nur bei Erfolg.",
+      "cta": "Jetzt Pilot starten"
+    },
+    "workflow": {
+      "subtitle": "So funktioniert es",
+      "title": "Von der Zielgruppe zum Meeting in 4 Schritten.",
+      "steps": [
+        {
+          "num": "01",
+          "title": "Zielgruppe definieren",
+          "description": "Gemeinsam definieren wir eure idealen Kunden: Branche, Unternehmensgröße, Region und Ansprechpartner."
+        },
+        {
+          "num": "02",
+          "title": "KI-Qualifizierung",
+          "description": "Unsere KI analysiert tausende Unternehmen, identifiziert Bedarfssignale und qualifiziert Prospects automatisch."
+        },
+        {
+          "num": "03",
+          "title": "Outreach & Terminierung",
+          "description": "Personalisierte Multi-Channel-Kampagnen per E-Mail, LinkedIn und Telefon generieren qualifizierte Termine."
+        },
+        {
+          "num": "04",
+          "title": "Meeting & Abschluss",
+          "description": "Ihr führt das Gespräch mit einem vorqualifizierten Entscheider. Wir liefern Briefing und Kontakthistorie."
+        }
+      ]
+    },
+    "pricing": {
+      "subtitle": "Preismodell",
+      "title": "250 € pro Meeting",
+      "description": "Rein erfolgsbasiert — keine Fixkosten, keine Risiken. Ihr zahlt nur für qualifizierte Termine, die tatsächlich stattfinden.",
+      "price": "250 €",
+      "per": "pro qualifiziertem Meeting"
+    },
+    "benefits": {
+      "title": "Das ist inklusive:",
+      "items": [
+        "KI-gestützte Prospect-Recherche",
+        "Multi-Channel Outreach (E-Mail, LinkedIn, Telefon)",
+        "Terminierung mit Entscheidern",
+        "Meeting-Briefing und Kontakthistorie",
+        "Keine Setup-Gebühren",
+        "Monatlich kündbar"
+      ]
+    },
+    "pilot": {
+      "title": "Startet euren Pilot.",
+      "description": "Testet HYRE Acquire risikofrei. Wir starten mit einem definierten Pilot-Projekt und skalieren bei Erfolg.",
+      "cta": "Kostenloses Erstgespräch"
+    }
+  },
+  "platform": {
+    "hero": {
+      "subtitle": "SaaS-Plattform",
+      "title": "Die All-in-One Recruiting-Plattform.",
+      "description": "HYRE vereint Kanban-Pipeline, KI-CV-Parsing, White-Label Karriereportal und Analytics in einer Plattform — speziell für Personaldienstleister.",
+      "cta": "Demo buchen"
+    },
+    "features": {
+      "items": [
+        {
+          "title": "KI CV-Parsing",
+          "description": "Automatische Extraktion von Skills, Erfahrung und Qualifikationen aus CVs in Sekunden."
+        },
+        {
+          "title": "Kanban Pipeline",
+          "description": "Drag & Drop Bewerbermanagement mit 14 konfigurierbaren Stages und Echtzeit-Updates."
+        },
+        {
+          "title": "Karriereportal",
+          "description": "White-Label Karriereseite in eurem Design mit eigener Domain und mobilem Bewerbungsformular."
+        },
+        {
+          "title": "Analytics Dashboard",
+          "description": "Time-to-Hire, Cost-per-Hire, Conversion-Funnels und Revenue-Tracking in Echtzeit."
+        },
+        {
+          "title": "LinkedIn Integration",
+          "description": "Chrome Extension für One-Click Import von LinkedIn-Profilen direkt in eure Pipeline."
+        },
+        {
+          "title": "Multi-Channel",
+          "description": "Kandidaten per E-Mail, WhatsApp oder SMS kontaktieren — alles aus einer Plattform."
+        },
+        {
+          "title": "DSGVO-konform",
+          "description": "Einwilligungsmanagement, Datenexport und automatische Löschfristen. 100% konform."
+        },
+        {
+          "title": "Job-Board Feeds",
+          "description": "Automatische Veröffentlichung auf Indeed, Stepstone, Google Jobs und mehr."
+        }
+      ]
+    },
+    "pricing": {
+      "title": "Transparente Preise.",
+      "subtitle": "Keine versteckten Kosten. Jederzeit kündbar.",
+      "cta": "Jetzt starten",
+      "note": "Zusätzlich 5% Vermittlungshonorar pro erfolgreicher Platzierung über HYRE.",
+      "tiers": [
+        {
+          "name": "Professional",
+          "price": "999 €",
+          "description": "Für kleine Personaldienstleister und Teams.",
+          "features": [
+            "Bis zu 5 Benutzer",
+            "500 Kandidaten",
+            "Kanban Pipeline",
+            "KI CV-Parsing",
+            "Analytics Dashboard"
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "price": "1.200 €",
+          "description": "Für wachsende PDL mit mehreren Teams.",
+          "features": [
+            "Bis zu 20 Benutzer",
+            "Unbegrenzte Kandidaten",
+            "White-Label Portal",
+            "Multi-Channel",
+            "Priority Support"
+          ]
+        },
+        {
+          "name": "Whitelabel",
+          "price": "1.500 €",
+          "description": "Komplett in eurem Branding. Unbegrenzt.",
+          "features": [
+            "Unbegrenzte Benutzer",
+            "Unbegrenzte Kandidaten",
+            "Custom Domain",
+            "API-Zugang",
+            "Dedicated Account Manager"
+          ]
+        }
+      ]
+    }
+  },
+  "about": {
+    "hero": {
+      "subtitle": "Über HYRE",
+      "title": "Recruiting-Technologie aus Berlin.",
+      "description": "HYRE wurde gegründet, um den Recruiting-Markt für Personaldienstleister zu modernisieren. Wir kombinieren KI, Automatisierung und tiefes Branchenverständnis."
+    },
+    "story": {
+      "title": "Unsere Geschichte",
+      "p1": "HYRE entstand aus der Überzeugung, dass Personaldienstleister bessere Technologie verdienen. Zu oft verlassen sich PDL auf manuelle Prozesse, veraltete Software und teure, ineffiziente Akquise-Methoden.",
+      "p2": "Als Gründer mit Erfahrung in Vendor Management Systemen, Process Mining und KI-Technologie haben wir HYRE aufgebaut, um genau diese Probleme zu lösen — mit einer Plattform, die speziell für die Bedürfnisse von Personaldienstleistern entwickelt wurde.",
+      "p3": "Heute bieten wir mit HYRE Acquire, unserer SaaS-Plattform und HYRE Consulting drei sich ergänzende Säulen, die den gesamten Wertschöpfungsprozess für Personaldienstleister abdecken."
+    },
+    "pillars": {
+      "title": "Drei Säulen. Ein Ziel.",
+      "subtitle": "Das HYRE-Ökosystem für moderne Personaldienstleister.",
+      "items": [
+        {
+          "label": "Services",
+          "title": "HYRE Acquire",
+          "description": "KI-gestützte Terminengenerierung und Auftragsakquise für Personaldienstleister. Rein erfolgsbasiert — 250 € pro qualifiziertem Meeting."
+        },
+        {
+          "label": "Plattform",
+          "title": "HYRE SaaS",
+          "description": "Die All-in-One Recruiting-Plattform mit Kanban-Pipeline, KI-CV-Parsing, White-Label Portal und Analytics — ab 999 €/Monat."
+        },
+        {
+          "label": "Consulting",
+          "title": "HYRE Consulting",
+          "description": "Direktvermittlung von Fach- und Führungskräften für Unternehmen. Spezialisiert auf IT, Finance und Engineering."
+        }
+      ]
+    },
+    "values": {
+      "title": "Was uns antreibt.",
+      "items": [
+        {
+          "title": "Performance statt Versprechen",
+          "description": "Wir messen uns an Ergebnissen. Ob Acquire-Termine oder Plattform-KPIs — alles ist transparent und nachvollziehbar."
+        },
+        {
+          "title": "Technologie mit Branchenverständnis",
+          "description": "Wir bauen keine generischen Tools. Jede Funktion ist speziell für die Bedürfnisse von Personaldienstleistern entwickelt."
+        },
+        {
+          "title": "Partnerschaft statt Dienstleistung",
+          "description": "Wir sehen uns als Partner unserer Kunden. Euer Erfolg ist unser Erfolg — deshalb arbeiten wir erfolgsbasiert."
+        },
+        {
+          "title": "Made in Germany",
+          "description": "DSGVO-konform, deutsche Server, deutscher Support. Recruiting-Technologie, der ihr vertrauen könnt."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Lasst uns sprechen.",
+      "description": "Erfahrt in einem kostenlosen Erstgespräch, wie HYRE euer Recruiting-Business transformieren kann.",
+      "button": "Erstgespräch buchen"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Kontakt aufnehmen.",
+      "description": "Vereinbart ein kostenloses Erstgespräch oder schreibt uns direkt. Wir melden uns innerhalb von 24 Stunden."
+    },
+    "form": {
+      "name": "Name",
+      "name_placeholder": "Euer Name",
+      "email": "E-Mail",
+      "email_placeholder": "name@unternehmen.de",
+      "company": "Unternehmen",
+      "company_placeholder": "Euer Unternehmen",
+      "phone": "Telefon",
+      "phone_placeholder": "+49 ...",
+      "message": "Nachricht",
+      "message_placeholder": "Wie können wir euch helfen?",
+      "submit": "Nachricht senden",
+      "sending": "Wird gesendet...",
+      "error": "Fehler beim Senden. Bitte versucht es erneut.",
+      "success": {
+        "title": "Nachricht gesendet!",
+        "description": "Vielen Dank für eure Nachricht. Wir melden uns innerhalb von 24 Stunden bei euch."
+      }
+    },
+    "info": {
+      "title": "Direkter Kontakt",
+      "description": "Habt ihr Fragen oder möchtet ein kostenloses Erstgespräch vereinbaren? Wir freuen uns auf eure Nachricht.",
+      "email": "E-Mail",
+      "location": "Standort",
+      "cta_title": "Kostenloses Erstgespräch",
+      "cta_description": "In 15 Minuten zeigen wir euch, wie HYRE euer Recruiting-Business verbessern kann."
+    }
+  },
+  "legal": {
+    "imprint": {
+      "title": "Impressum",
+      "company_info": "Angaben gemäß § 5 TMG",
+      "company_details": "HYRE\nHüsnü Güley\nBerlin, Deutschland",
+      "represented_by": "Vertreten durch",
+      "representative": "Hüsnü Güley, Geschäftsführer",
+      "contact_title": "Kontakt",
+      "contact_details": "E-Mail: info@huehyre.de\nWebsite: https://huehyre.de",
+      "disclaimer_title": "Haftungsausschluss",
+      "disclaimer_text": "Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen."
+    },
+    "privacy": {
+      "title": "Datenschutzerklärung",
+      "sections": [
+        {
+          "title": "1. Datenschutz auf einen Blick",
+          "content": "Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie unsere Website besuchen."
+        },
+        {
+          "title": "2. Verantwortliche Stelle",
+          "content": "Verantwortlich für die Datenverarbeitung auf dieser Website ist:\n\nHYRE\nHüsnü Güley\nBerlin, Deutschland\nE-Mail: info@huehyre.de"
+        },
+        {
+          "title": "3. Datenerfassung auf unserer Website",
+          "content": "Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Wenn Sie unsere Website besuchen, werden automatisch Informationen in Server-Logfiles gespeichert, die Ihr Browser automatisch an uns übermittelt."
+        },
+        {
+          "title": "4. Kontaktformular",
+          "content": "Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem Anfrageformular inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage bei uns gespeichert."
+        },
+        {
+          "title": "5. Hosting",
+          "content": "Diese Website wird bei Vercel Inc. gehostet. Die Server befinden sich in der EU. Vercel verarbeitet Daten im Einklang mit der DSGVO."
+        },
+        {
+          "title": "6. Ihre Rechte",
+          "content": "Sie haben jederzeit das Recht, unentgeltlich Auskunft über Herkunft, Empfänger und Zweck Ihrer gespeicherten personenbezogenen Daten zu erhalten. Sie haben außerdem ein Recht, die Berichtigung oder Löschung dieser Daten zu verlangen."
+        }
+      ]
+    },
+    "terms": {
+      "title": "Allgemeine Geschäftsbedingungen",
+      "sections": [
+        {
+          "title": "1. Geltungsbereich",
+          "content": "Diese Allgemeinen Geschäftsbedingungen gelten für alle Verträge zwischen HYRE und seinen Kunden über die Erbringung von Dienstleistungen im Bereich Recruiting-Technologie und Personaldienstleistungen."
+        },
+        {
+          "title": "2. Leistungsumfang",
+          "content": "Der Umfang der Leistungen ergibt sich aus der jeweiligen Leistungsbeschreibung und dem individuellen Angebot. Änderungen am Leistungsumfang bedürfen der schriftlichen Vereinbarung."
+        },
+        {
+          "title": "3. Vergütung",
+          "content": "Die Vergütung richtet sich nach der jeweils geltenden Preisliste oder dem individuellen Angebot. Bei erfolgsbasierten Modellen (z.B. HYRE Acquire) wird die Vergütung nur bei Eintritt des definierten Erfolgs fällig."
+        },
+        {
+          "title": "4. Vertraulichkeit",
+          "content": "Beide Parteien verpflichten sich, alle vertraulichen Informationen, die im Rahmen der Zusammenarbeit bekannt werden, vertraulich zu behandeln und nicht an Dritte weiterzugeben."
+        },
+        {
+          "title": "5. Haftung",
+          "content": "Die Haftung von HYRE ist auf Vorsatz und grobe Fahrlässigkeit beschränkt. Die Haftung für mittelbare Schäden und entgangenen Gewinn ist ausgeschlossen, soweit gesetzlich zulässig."
+        },
+        {
+          "title": "6. Schlussbestimmungen",
+          "content": "Es gilt das Recht der Bundesrepublik Deutschland. Gerichtsstand für alle Streitigkeiten ist Berlin, sofern der Kunde Kaufmann ist."
+        }
+      ]
+    }
   },
   "footer": {
-    "product": "Produkt",
-    "features": "Features",
-    "pricing": "Preise",
-    "integrations": "Integrationen",
-    "changelog": "Changelog",
-    "resources": "Ressourcen",
-    "docs": "Dokumentation",
-    "api_reference": "API Referenz",
-    "blog": "Blog",
-    "status": "Status",
+    "services_title": "Lösungen",
+    "services_all": "Alle Dienstleistungen",
+    "acquire": "HYRE Acquire",
+    "platform": "Plattform",
     "company": "Unternehmen",
-    "about": "Ueber uns",
-    "careers": "Karriere",
+    "about": "Über uns",
     "contact": "Kontakt",
-    "partners": "Partner",
     "legal": "Rechtliches",
     "privacy": "Datenschutz",
     "terms": "AGB",
     "imprint": "Impressum",
-    "dpa": "AVV",
+    "email_label": "E-Mail",
     "copyright": "Alle Rechte vorbehalten.",
-    "tagline": "KI-gestuetztes Recruiting fuer moderne Teams."
+    "tagline": "KI-gestützte Recruiting-Technologie für Personaldienstleister."
   }
 }
