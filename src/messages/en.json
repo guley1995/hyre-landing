@@ -378,62 +378,53 @@
   },
   "about": {
     "hero": {
-      "subtitle": "About HYRE",
-      "title": "Recruiting technology from Berlin.",
-      "description": "HYRE was founded to modernize the recruiting market for staffing agencies. We combine AI, automation and deep industry expertise."
+      "subtitle": "About Us",
+      "titleLine1": "No cookie-cutter.",
+      "titleLine2": "No agency.",
+      "titleHighlight": "Just results.",
+      "description": "HYRE makes recruiting technology personal. Deliberately. Because good solutions require industry expertise – not buzzwords."
     },
     "story": {
-      "title": "Our Story",
-      "p1": "HYRE was born from the conviction that staffing agencies deserve better technology. Too often, agencies rely on manual processes, outdated software and expensive, inefficient acquisition methods.",
-      "p2": "As founders with experience in Vendor Management Systems, Process Mining and AI technology, we built HYRE to solve exactly these problems — with a platform designed specifically for the needs of staffing agencies.",
-      "p3": "Today, with HYRE Acquire, our SaaS platform and HYRE Consulting, we offer three complementary pillars that cover the entire value chain for staffing agencies."
-    },
-    "pillars": {
-      "title": "Three Pillars. One Goal.",
-      "subtitle": "The HYRE ecosystem for modern staffing agencies.",
-      "items": [
-        {
-          "label": "Services",
-          "title": "HYRE Acquire",
-          "description": "AI-powered meeting generation and client acquisition for staffing agencies. Purely performance-based — EUR 250 per qualified meeting."
-        },
-        {
-          "label": "Platform",
-          "title": "HYRE SaaS",
-          "description": "The all-in-one recruiting platform with Kanban pipeline, AI CV parsing, white-label portal and analytics — from EUR 999/month."
-        },
-        {
-          "label": "Consulting",
-          "title": "HYRE Consulting",
-          "description": "Direct placement of specialists and executives for companies. Specialized in IT, Finance and Engineering."
-        }
+      "subtitle": "The Story",
+      "title": "We founded HYRE because we were tired of watching staffing agencies struggle with bad technology.",
+      "paragraphs": [
+        "Too many tools on the market are built for corporations with 50-person HR teams. Bloated, complicated, slow. Too many staffing agencies rely on manual processes, Excel spreadsheets and expensive, inefficient acquisition methods.",
+        "We wanted to do things differently. Direct. Fast. No overhead, no feature bloat, no needing three trainings before you can start working.",
+        "So we built HYRE. A platform that works the way you do: focused, pragmatic and geared towards results. Plus HYRE Acquire for new client acquisition and HYRE Consulting for direct placement. Three pillars — one ecosystem."
       ]
     },
     "values": {
-      "title": "What drives us.",
+      "subtitle": "What We Stand For",
+      "title": "Three things.",
+      "titleMuted": "Nothing more needed.",
       "items": [
         {
-          "title": "Performance over Promises",
-          "description": "We measure ourselves by results. Whether Acquire meetings or platform KPIs — everything is transparent and traceable."
+          "title": "Honesty",
+          "description": "We tell you what we think. Even when it's uncomfortable. We'd rather give an honest assessment than a false promise."
         },
         {
-          "title": "Technology with Industry Expertise",
-          "description": "We don't build generic tools. Every feature is specifically designed for the needs of staffing agencies."
+          "title": "Quality",
+          "description": "We don't build generic tools. Every feature is specifically designed for the needs of staffing agencies. Fewer features, but the right ones."
         },
         {
-          "title": "Partnership over Service",
-          "description": "We see ourselves as partners of our clients. Your success is our success — that's why we work performance-based."
-        },
-        {
-          "title": "Made in Germany",
-          "description": "GDPR-compliant, German servers, German support. Recruiting technology you can trust."
+          "title": "Speed",
+          "description": "No committee, no approval process. We decide immediately, act immediately, deliver immediately. Short paths, fast results."
         }
       ]
     },
+    "ats": {
+      "subtitle": "Our Own System",
+      "title": "Why we built our own ATS.",
+      "paragraphs": [
+        "The tools on the market? Built for corporations with massive HR departments. Bloated, complicated, slow. We needed something that works the way we do: fast, focused, no baggage.",
+        "So we built HYRE. An Applicant Tracking System that uses AI-powered matching and allows us to deliver in hours where others need days. No feature bloat. No dashboard theater. Just what matters: the right person for the right position."
+      ],
+      "linkText": "Learn more about the platform"
+    },
     "cta": {
-      "title": "Let's talk.",
-      "description": "Find out in a free consultation how HYRE can transform your recruiting business.",
-      "button": "Book a Call"
+      "titleLine1": "Let's get to know each other.",
+      "titleMuted": "No pitch. Just a conversation.",
+      "button": "Get in touch"
     }
   },
   "contact": {
@@ -473,7 +464,7 @@
     "imprint": {
       "title": "Imprint",
       "company_info": "Information according to § 5 TMG",
-      "company_details": "HYRE\nHüsnü Güley\nBerlin, Germany",
+      "company_details": "HYRE\nHüsnü Güley\nWertingen, Germany",
       "represented_by": "Represented by",
       "representative": "Hüsnü Güley, Managing Director",
       "contact_title": "Contact",
@@ -490,7 +481,7 @@
         },
         {
           "title": "2. Responsible Party",
-          "content": "Responsible for data processing on this website is:\n\nHYRE\nHüsnü Güley\nBerlin, Germany\nEmail: info@huehyre.de"
+          "content": "Responsible for data processing on this website is:\n\nHYRE\nHüsnü Güley\nWertingen, Germany\nEmail: info@huehyre.de"
         },
         {
           "title": "3. Data Collection on Our Website",
@@ -535,7 +526,7 @@
         },
         {
           "title": "6. Final Provisions",
-          "content": "The law of the Federal Republic of Germany applies. The place of jurisdiction for all disputes is Berlin, provided the customer is a merchant."
+          "content": "The law of the Federal Republic of Germany applies. The place of jurisdiction for all disputes is Augsburg, provided the customer is a merchant."
         }
       ]
     }

@@ -378,62 +378,53 @@
   },
   "about": {
     "hero": {
-      "subtitle": "Über HYRE",
-      "title": "Recruiting-Technologie aus Berlin.",
-      "description": "HYRE wurde gegründet, um den Recruiting-Markt für Personaldienstleister zu modernisieren. Wir kombinieren KI, Automatisierung und tiefes Branchenverständnis."
+      "subtitle": "Über uns",
+      "titleLine1": "Kein 08/15.",
+      "titleLine2": "Keine Agentur.",
+      "titleHighlight": "Nur Ergebnisse.",
+      "description": "HYRE macht Recruiting-Technologie persönlich. Bewusst. Weil gute Lösungen Branchenverständnis brauchen – nicht Buzzwords."
     },
     "story": {
-      "title": "Unsere Geschichte",
-      "p1": "HYRE entstand aus der Überzeugung, dass Personaldienstleister bessere Technologie verdienen. Zu oft verlassen sich PDL auf manuelle Prozesse, veraltete Software und teure, ineffiziente Akquise-Methoden.",
-      "p2": "Als Gründer mit Erfahrung in Vendor Management Systemen, Process Mining und KI-Technologie haben wir HYRE aufgebaut, um genau diese Probleme zu lösen — mit einer Plattform, die speziell für die Bedürfnisse von Personaldienstleistern entwickelt wurde.",
-      "p3": "Heute bieten wir mit HYRE Acquire, unserer SaaS-Plattform und HYRE Consulting drei sich ergänzende Säulen, die den gesamten Wertschöpfungsprozess für Personaldienstleister abdecken."
-    },
-    "pillars": {
-      "title": "Drei Säulen. Ein Ziel.",
-      "subtitle": "Das HYRE-Ökosystem für moderne Personaldienstleister.",
-      "items": [
-        {
-          "label": "Services",
-          "title": "HYRE Acquire",
-          "description": "KI-gestützte Terminengenerierung und Auftragsakquise für Personaldienstleister. Rein erfolgsbasiert — 250 € pro qualifiziertem Meeting."
-        },
-        {
-          "label": "Plattform",
-          "title": "HYRE SaaS",
-          "description": "Die All-in-One Recruiting-Plattform mit Kanban-Pipeline, KI-CV-Parsing, White-Label Portal und Analytics — ab 999 €/Monat."
-        },
-        {
-          "label": "Consulting",
-          "title": "HYRE Consulting",
-          "description": "Direktvermittlung von Fach- und Führungskräften für Unternehmen. Spezialisiert auf IT, Finance und Engineering."
-        }
+      "subtitle": "Die Geschichte",
+      "title": "Wir haben HYRE gegründet, weil wir es leid waren, zuzusehen, wie Personaldienstleister mit schlechter Technologie arbeiten.",
+      "paragraphs": [
+        "Zu viele Tools auf dem Markt sind für Konzerne mit 50-Personen-HR-Teams gebaut. Aufgebläht, kompliziert, langsam. Zu viele PDL verlassen sich auf manuelle Prozesse, Excel-Listen und teure, ineffiziente Akquise-Methoden.",
+        "Wir wollten das anders machen. Direkt. Schnell. Ohne Overhead, ohne Feature-Bloat, ohne dass ihr erstmal drei Schulungen braucht, bevor ihr anfangen könnt zu arbeiten.",
+        "Also haben wir HYRE gebaut. Eine Plattform, die so arbeitet wie ihr: fokussiert, pragmatisch und auf Ergebnisse getrimmt. Dazu HYRE Acquire für die Neukundengewinnung und HYRE Consulting für die Direktvermittlung. Drei Säulen — ein Ökosystem."
       ]
     },
     "values": {
-      "title": "Was uns antreibt.",
+      "subtitle": "Wofür wir stehen",
+      "title": "Drei Dinge.",
+      "titleMuted": "Mehr braucht es nicht.",
       "items": [
         {
-          "title": "Performance statt Versprechen",
-          "description": "Wir messen uns an Ergebnissen. Ob Acquire-Termine oder Plattform-KPIs — alles ist transparent und nachvollziehbar."
+          "title": "Ehrlichkeit",
+          "description": "Wir sagen euch, was wir denken. Auch wenn es unbequem ist. Lieber eine ehrliche Einschätzung als ein falsches Versprechen."
         },
         {
-          "title": "Technologie mit Branchenverständnis",
-          "description": "Wir bauen keine generischen Tools. Jede Funktion ist speziell für die Bedürfnisse von Personaldienstleistern entwickelt."
+          "title": "Qualität",
+          "description": "Wir bauen keine generischen Tools. Jede Funktion ist speziell für die Bedürfnisse von Personaldienstleistern entwickelt. Weniger Features, dafür die richtigen."
         },
         {
-          "title": "Partnerschaft statt Dienstleistung",
-          "description": "Wir sehen uns als Partner unserer Kunden. Euer Erfolg ist unser Erfolg — deshalb arbeiten wir erfolgsbasiert."
-        },
-        {
-          "title": "Made in Germany",
-          "description": "DSGVO-konform, deutsche Server, deutscher Support. Recruiting-Technologie, der ihr vertrauen könnt."
+          "title": "Geschwindigkeit",
+          "description": "Kein Committee, kein Freigabeprozess. Wir entscheiden sofort, handeln sofort, liefern sofort. Kurze Wege, schnelle Ergebnisse."
         }
       ]
     },
+    "ats": {
+      "subtitle": "Unser eigenes System",
+      "title": "Warum wir unser eigenes ATS gebaut haben.",
+      "paragraphs": [
+        "Die Tools auf dem Markt? Gebaut für Konzerne mit riesigen HR-Abteilungen. Aufgebläht, kompliziert, langsam. Wir brauchten etwas, das so arbeitet wie wir: schnell, fokussiert, ohne Ballast.",
+        "Also haben wir HYRE gebaut. Ein Applicant Tracking System, das auf KI-gestütztes Matching setzt und es erlaubt, in Stunden zu liefern, wo andere Tage brauchen. Kein Feature-Bloat. Kein Dashboard-Theater. Nur das, was zählt: die richtige Person für die richtige Stelle."
+      ],
+      "linkText": "Mehr über die Plattform erfahren"
+    },
     "cta": {
-      "title": "Lasst uns sprechen.",
-      "description": "Erfahrt in einem kostenlosen Erstgespräch, wie HYRE euer Recruiting-Business transformieren kann.",
-      "button": "Erstgespräch buchen"
+      "titleLine1": "Lernen wir uns kennen.",
+      "titleMuted": "Kein Pitch. Nur ein Gespräch.",
+      "button": "Kontakt aufnehmen"
     }
   },
   "contact": {
@@ -473,7 +464,7 @@
     "imprint": {
       "title": "Impressum",
       "company_info": "Angaben gemäß § 5 TMG",
-      "company_details": "HYRE\nHüsnü Güley\nBerlin, Deutschland",
+      "company_details": "HYRE\nHüsnü Güley\nWertingen, Deutschland",
       "represented_by": "Vertreten durch",
       "representative": "Hüsnü Güley, Geschäftsführer",
       "contact_title": "Kontakt",
@@ -490,7 +481,7 @@
         },
         {
           "title": "2. Verantwortliche Stelle",
-          "content": "Verantwortlich für die Datenverarbeitung auf dieser Website ist:\n\nHYRE\nHüsnü Güley\nBerlin, Deutschland\nE-Mail: info@huehyre.de"
+          "content": "Verantwortlich für die Datenverarbeitung auf dieser Website ist:\n\nHYRE\nHüsnü Güley\nWertingen, Deutschland\nE-Mail: info@huehyre.de"
         },
         {
           "title": "3. Datenerfassung auf unserer Website",
@@ -535,7 +526,7 @@
         },
         {
           "title": "6. Schlussbestimmungen",
-          "content": "Es gilt das Recht der Bundesrepublik Deutschland. Gerichtsstand für alle Streitigkeiten ist Berlin, sofern der Kunde Kaufmann ist."
+          "content": "Es gilt das Recht der Bundesrepublik Deutschland. Gerichtsstand für alle Streitigkeiten ist Augsburg, sofern der Kunde Kaufmann ist."
         }
       ]
     }

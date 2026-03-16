@@ -207,7 +207,7 @@ export default function KontaktPage() {
                     </div>
                     <div>
                       <p className="text-sm text-text-muted">{t("info.location")}</p>
-                      <p className="text-text-primary">Berlin, Deutschland</p>
+                      <p className="text-text-primary">Wertingen, Deutschland</p>
                     </div>
                   </div>
                 </div>
