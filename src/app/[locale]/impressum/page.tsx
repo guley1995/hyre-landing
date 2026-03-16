@@ -12,6 +12,10 @@ export default function ImpressumPage() {
       <div className="relative mx-auto max-w-3xl px-6">
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
           <h1 className="mb-12 text-4xl font-bold text-text-primary">{t("imprint.title")}</h1>
+          <div className="mb-10 rounded-xl border border-accent/20 bg-accent/5 p-6">
+            <h2 className="mb-2 text-sm font-semibold uppercase tracking-wider text-accent">{t("imprint.notice_title")}</h2>
+            <p className="text-text-secondary leading-relaxed">{t("imprint.notice_text")}</p>
+          </div>
           <div className="prose-dark space-y-8 text-text-secondary">
             <div>
               <h2 className="mb-3 text-lg font-semibold text-text-primary">{t("imprint.company_info")}</h2>

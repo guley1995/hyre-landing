@@ -463,8 +463,10 @@
   "legal": {
     "imprint": {
       "title": "Impressum",
+      "notice_title": "Hinweis",
+      "notice_text": "Diese Website befindet sich aktuell im Aufbau. Alle Angaben werden in der nächsten Zeit vervollständigt und korrigiert. Wir bitten um Verständnis.",
       "company_info": "Angaben gemäß § 5 TMG",
-      "company_details": "HYRE\nHüsnü Güley\nWertingen, Deutschland",
+      "company_details": "Hue.HYRE\nHüsnü Güley\nWertingen, Deutschland",
       "represented_by": "Vertreten durch",
       "representative": "Hüsnü Güley, Geschäftsführer",
       "contact_title": "Kontakt",
@@ -481,7 +483,7 @@
         },
         {
           "title": "2. Verantwortliche Stelle",
-          "content": "Verantwortlich für die Datenverarbeitung auf dieser Website ist:\n\nHYRE\nHüsnü Güley\nWertingen, Deutschland\nE-Mail: info@huehyre.de"
+          "content": "Verantwortlich für die Datenverarbeitung auf dieser Website ist:\n\nHue.HYRE\nHüsnü Güley\nWertingen, Deutschland\nE-Mail: info@huehyre.de"
         },
         {
           "title": "3. Datenerfassung auf unserer Website",

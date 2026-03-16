@@ -463,8 +463,10 @@
   "legal": {
     "imprint": {
       "title": "Imprint",
+      "notice_title": "Notice",
+      "notice_text": "This website is currently under construction. All information will be completed and corrected in the near future. We appreciate your understanding.",
       "company_info": "Information according to § 5 TMG",
-      "company_details": "HYRE\nHüsnü Güley\nWertingen, Germany",
+      "company_details": "Hue.HYRE\nHüsnü Güley\nWertingen, Germany",
       "represented_by": "Represented by",
       "representative": "Hüsnü Güley, Managing Director",
       "contact_title": "Contact",
@@ -481,7 +483,7 @@
         },
         {
           "title": "2. Responsible Party",
-          "content": "Responsible for data processing on this website is:\n\nHYRE\nHüsnü Güley\nWertingen, Germany\nEmail: info@huehyre.de"
+          "content": "Responsible for data processing on this website is:\n\nHue.HYRE\nHüsnü Güley\nWertingen, Germany\nEmail: info@huehyre.de"
         },
         {
           "title": "3. Data Collection on Our Website",
